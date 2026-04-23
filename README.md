@@ -9,7 +9,7 @@
 [Barrel Cortex Diagram](https://www.cell.com/cms/10.1016/j.neuron.2007.09.017/asset/16329b95-3e79-4732-9e54-3a63ecae4f3c/main.assets/gr1_lrg.jpg)
 
   1. In terminal: `pixi run python download_atlas.py`
-  2. In terminal: `pixi run napari`
+  2. In terminal: `pixi run python -m napari` 
   3. Load the File `mouse_atlas.tif`
   4. Explore the mouse brain and find the `left barrel cortex` in either 3D or 2D mode.
 
@@ -19,7 +19,7 @@
 
 [Calcium Imaging Video](https://www.youtube.com/shorts/DyFPv_aKQkI)
 
-  1. In terminal: `pixi run napari`
+  1. In terminal: `pixi run python -m napari`
   2. Load the Files `frames.tif` and `labels.tif`
   3. Label each cell you can find.
   4. Save the cell_labels layer as `labels.tif`
@@ -47,7 +47,7 @@
 [Barrel-Cortex-Diagramm](https://www.cell.com/cms/10.1016/j.neuron.2007.09.017/asset/16329b95-3e79-4732-9e54-3a63ecae4f3c/main.assets/gr1_lrg.jpg)
 
 1. Im Terminal: `pixi run python download_atlas.py`
-2. Im Terminal: `pixi run napari`
+2. Im Terminal: `pixi run python -m napari`
 3. Lade die Datei `mouse_atlas.tif`
 4. Erkunde das Mausgehirn und finde den linken Barrel-Cortex in 3D oder 2D.
 
@@ -55,7 +55,7 @@
 
 [Video zur Kalziumbildgebung](https://www.youtube.com/shorts/DyFPv_aKQkI)
   
-1. Im Terminal: `pixi run napari`
+1. Im Terminal: `pixi run python -m napari`
 2. Laden Sie die Dateien `frames.tif` und `labels.tif`.
 3. Beschriften Sie jede gefundene Zelle.
 4. Speichern Sie die Ebene `cell_labels` als `labels.tif`.
